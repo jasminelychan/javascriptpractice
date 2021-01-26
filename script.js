@@ -28,7 +28,7 @@
 
 let foodButton = document.createElement("Button");
 foodButton.innerHTML = "I'm hungry!";
-foodButton.setAttribute("style", "color:yellow; background-color:yellow; font-size: 1rem;");
+foodButton.setAttribute("style", "color:pink; font-size: 1rem;");
 
 
 let buttonContainer = document.getElementById("buttonContainer");
@@ -43,7 +43,7 @@ foodButton.addEventListener("click", function(){
     let sentence = "I want to eat " + foodNameOne[Math.floor(Math.random()*4)] + " and " + foodNameTwo[Math.floor(Math.random()*4)] + ".";
     document.getElementById("sentence").innerHTML=sentence;
     // sentence.setAttribute("style," "color:blue")
-    foodButton.setAttribute("style", "color:red; background-color:yellow; font-size: 1rem;");
+    foodButton.setAttribute("style", "color:red; font-size: 1rem;");
 
 }
 );
